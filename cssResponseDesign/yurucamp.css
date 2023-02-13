@@ -1,0 +1,338 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    box-sizing: border-box;
+    /*font-family: sans-serif;*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+    display: block;
+    flex-direction: column;
+    background-color: #333333;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin: 12px 0;
+    color: white;
+}
+
+.header a {
+    display: block;
+    font-size: 0.8rem;
+    color: white;
+    text-decoration: none;
+    padding: 10px 200px;
+}
+
+
+.header a:hover {
+    background-color: #444444;
+    color: #df770f;
+}
+
+#about {
+    border-bottom: dotted 1px #444444;
+    border-top: dotted 1px #444444;
+}
+
+article img {
+    width: 100%;
+}
+
+.img-wrap {
+    background-color: #000000;
+}
+
+.img-wrap img {
+    display: block;
+    opacity: 0.7;
+}
+
+.headline {
+    position: relative;
+}
+
+.headline h2 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin: 12px 0;
+    color: white;
+    position: absolute;
+    left: 18%;
+    top: 11%;
+    line-height: 55px;
+}
+
+#ccenjoy {
+    color: #df770f;
+}
+
+.headline p {
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 56%;
+    line-height: 30px;
+}
+
+.headline button {
+    background-color: #333333;
+    border: none;
+    color: white;
+    position: absolute;
+    text-align: center;
+    padding: 12px;
+    left: 42%;
+    top: 80%;
+    width: 77px;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.headline button:hover {
+    background-color: #444444;
+    cursor: pointer;
+}
+
+.aboutus h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 30px 0 20px 0;
+    color: white;
+}
+
+#ccabout {
+    color: #df770f;
+}
+
+.aboutus p {
+    color: white;
+    line-height: 25px;
+    margin: 0 30px 0 30px;
+}
+
+.aboutus button {
+    border: none;
+    background-color: white;
+    font-size: 12px;
+    padding: 10px 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px 0 150px 0;
+}
+
+.aboutus button:hover {
+    background-color: lightslategray;
+    cursor: pointer;
+}
+
+footer nav {
+    list-style: none;
+    width: 100%
+}
+
+#location {
+    background-color: white;
+    display: block;
+}
+
+#location img {
+    width: 10%;
+    padding: 35px 0 8px 0;
+}
+
+#location h3 {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#location p {
+    font-size: small;
+    padding-bottom: 55px;
+}
+
+#tent {
+    background-color: #df770f;
+    display: block;
+}
+
+#tent img {
+    width: 10%;
+    padding: 35px 0 8px 0;
+}
+
+#tent h3 {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#tent p {
+    font-size: small;
+    padding-bottom: 55px;
+}
+
+#campfire {
+    background-color: white;
+    display: block;
+}
+
+#campfire img {
+    width: 10%;
+    padding: 35px 0 8px 0;
+}
+
+#campfire h3 {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#campfire p {
+    font-size: small;
+    padding-bottom: 55px;
+}
+
+#copyrights {
+    color: white;
+    font-size: 0.9rem;
+    padding: 30px;
+}
